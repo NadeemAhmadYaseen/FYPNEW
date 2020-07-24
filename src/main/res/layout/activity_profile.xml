@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradienttree"
+    tools:context=".ProfileActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp">
+
+        <ImageButton
+            android:id="@+id/user_profile_photo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/login_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginHorizontal="33dp"
+            android:background="@drawable/user_profile_image_backgroundtwo"
+            android:elevation="4dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_boy"/>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:text="Update Profile"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            app:fontFamily="@font/aladin"/>
+
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Profile Name"
+            android:textSize="14sp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Class Name"
+            android:textSize="14sp"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="10dp" />
+
+
+        <Button
+
+            android:text="set Changes"
+            android:id="@+id/buttonSetChanges"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:layout_gravity="center"
+            android:enabled="true"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_transparent"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
